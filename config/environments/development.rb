@@ -37,4 +37,6 @@ Rails.application.configure do
 
   #Required for Heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000'}
+
+  Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
 end
