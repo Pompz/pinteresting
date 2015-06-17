@@ -27,7 +27,7 @@ gem 'paperclip', '~> 4.2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise', '~> 3.5.1'
 gem 'bootstrap-sass'
-gem 'aws-sdk', '~> 2.0'
+gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails', '~> 0.2.0'
 
 group :development, :test do
