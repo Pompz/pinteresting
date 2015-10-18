@@ -2,8 +2,8 @@ class Pin < ActiveRecord::Base
 	belongs_to :user
 
 has_attached_file :image, :styles => { thumb: "100x100#",
-                                       medium: "500x500>",
-                                       display: "500x400>" },
+                                       medium: "500x500>"
+                                       },
                           :convert_options => { all: "-background black -compose Copy -gravity center"}
 
 
